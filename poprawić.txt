@@ -1,1 +1,19 @@
-zmienić zdjęcia ze wzorów na wzory
+https://miro.com/app/board/uXjVMCU-fv0=/
+1. zmienić zdjęcia ze wzorów na wzory
+
+2. zadanie 1: zdjęcie transmitancji dyskretnej na wzór + potęgi z zmienić na z^-1
+
+3. Zera transmitancji - ładniej napisać
+
+
+Zera transmitancji ciągłej
+s1 = -0.46083
+s2 = -0.22727
+
+Zera transmitancji dyskretnej: 
+z1 =0.79259, z2 =0.894414
+
+
+Transmitancja dyskretna jest stabilna tak samo jak i transmitancja ciągła.
+
+zmienić transmitancje na swoja w 4. zadaniu DMC
