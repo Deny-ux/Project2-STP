@@ -28,7 +28,7 @@ b0 = Gz.Numerator{1}(3);
 
 zero(Gz)    
 % Czas symulacji
-symulation_time = 40;
+symulation_time = 60;
 
 % Zmienna niezbędna do rysowania wykresu
 t = linspace(0, symulation_time, symulation_time/Tp + 1);
@@ -38,13 +38,15 @@ Gs_data_plot = step(Gs,  t);
 Gz_data_plot = step(Gz, t);
 
 % Rysowanie wykresów
-plot(t, Gs_data_plot, 'LineWidth', 1.2);
+% plot(t, Gs_data_plot, 'LineWidth', 1.2);
 hold on;
-grid on;
+
 stairs(t, Gz_data_plot, 'LineWidth', 1.2);  
-legend('Model ciągły', 'Model dyskretny', 'Location', 'southeast');
-title('Odpowiedzi skokowe transmitancji ciągłej i dyskretnej');
-xlabel('Czas, t');
+grid minor;
+legend('Model dyskretny', 'Location', 'southeast');
+% title('Odpowiedzi skokowe transmitancji ciągłej i dyskretnej');
+title('Odpowiedź skokowa obiektu');
+xlabel('Próbki, k');
 ylabel('Wyjście modelu, y');
 hold off;
 
